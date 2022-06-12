@@ -27,7 +27,8 @@ def analyze(request):
     removepunc = request.GET.get('removepunc', 'off')
     fullcaps = request.GET.get('fullcaps', 'off')
     newlineremover = request.GET.get('newlineremover', 'off')
-
+    extraspaceremover = request.GET.get('extraspaceremover', 'off')
+    charcount = request.GET.get('charcount', 'off')
 
     #Check which checkbox is on
     if removepunc == "on":
@@ -45,7 +46,7 @@ def analyze(request):
             analyzed = analyzed + char.upper()
 
         params = {'purpose': 'Changed to Uppercase', 'analyzed_text': analyzed}
-        # Analyze the text
+
         return render(request, 'analyze.html', params)
 
     elif(newlineremover=="on"):
@@ -55,7 +56,31 @@ def analyze(request):
                 analyzed = analyzed + char
 
         params = {'purpose': 'Removed newlines', 'analyzed_text': analyzed}
+
+        return render(request, 'analyze.html', params)
+
+
+    elif (extraspaceremover == "on"):
+
+        analyzed = ""
+
+        for index, char in enumerate(djtext):
+
+            if not (djtext[index] == " " and djtext[index + 1] == " "):
+                analyzed = analyzed + char
+
+        params = {'purpose': 'Removed NewLines', 'analyzed_text': analyzed}
+
         # Analyze the text
+
+        return render(request, 'analyze.html', params)
+
+    elif charcount == "on":
+        count=0
+        for char in djtext:
+            count+= 1
+        params = {'purpose': 'Removed Spaces', 'analyzed_text': count}
+
         return render(request, 'analyze.html', params)
 
 
