@@ -84,5 +84,5 @@ def analyze(request):
         return render(request, 'analyze.html', params)
 
 
-    else:
+    else :
         return HttpResponse("Error")
