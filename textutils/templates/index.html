@@ -11,7 +11,7 @@
     <title>Text Utils</title>
   </head>
   <body>
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+<nav class="navbar navbar-expand-lg navbar-light " style="background-color: #e3f2fd;">
   <div class="container-fluid">
     <a class="navbar-brand" href="{% url 'index'%}">Text Utils</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +40,7 @@
 <div class="container">
 <form action='/analyze' method='post'>{% csrf_token %}
 
-  <div class="form-floating">
+  <div class="form-floating my-2">
   <textarea class="form-control"  name='text' placeholder="Leave a comment here" id="floatingTextarea2" style="height: 300px"></textarea>
   <label for="floatingTextarea2">Enter your text here</label>
 </div>
