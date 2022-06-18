@@ -11,7 +11,7 @@ analyze it. The user will be able to
 ## Home Page
 In this page the user will paste his text and chose analyzer option.
 
-<img src="[https://imgur.com/a/j82VHkM](https://imgur.com/a/j82VHkM)" >
+<img src="https://imgur.com/a/j82VHkM" >
 
 ## Analyzer Page
 The text will be shown here after analyzer
