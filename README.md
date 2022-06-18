@@ -36,7 +36,8 @@ django
 Downlod/Pull the entire folder
 Then go to cmd and run
 
-```python manage.py runserver
+```
+python manage.py runserver
 ```
 
 
