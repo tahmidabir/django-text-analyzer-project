@@ -28,16 +28,15 @@ The user will see error if he does not choose any analyze option and will be red
 <img src="images/error.jpg" >
 
 
-##Requirements
-Python3 
+## Requirements
+Python3 <br/>
 django
 
 # How to run this project?
 Downlod/Pull the entire folder
 Then go to cmd and run
 
-```
-python manage.py runserver
+```python manage.py runserver
 ```
 
 
