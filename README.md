@@ -11,15 +11,15 @@ analyze it. The user will be able to
 ## Home Page
 In this page the user will paste his text and chose analyzer option.
 
-<img src="https://imgur.com/a/j82VHkM" >
+<img src="images/home.jpg" >
 
 ## Analyzer Page
 The text will be shown here after analyzer
-<img src="https://imgur.com/a/KrCjbwD" >
+<img src="images/analyze.jpg" >
 
 ## Error Page
 The user will see error if he does not choose any analyze option and will be redirected to this page
-<img src="https://imgur.com/a/sMhMBBE" >
+<img src="images/error.jpg" >
 
 
 
