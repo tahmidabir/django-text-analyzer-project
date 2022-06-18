@@ -2,7 +2,7 @@
 
 
 This is a Django Text Analyzer Project Based on Django in backend and Bootstrep in frontend. The project aims to help the user to paste his paragraph/ text and 
-analyze it. The user will be able to 
+analyze it. 
 
 ## What can we do from textutils?
 
