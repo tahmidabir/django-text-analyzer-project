@@ -7,11 +7,11 @@ analyze it. The user will be able to
 ## What can we do from textutils?
 
 
-1)Remove Punctuations
-2)UPPERCASE
-3)New Line Remove
-4)Extra Spaces Remover
-5)Count Characters
+1)Remove Punctuations<br/>
+2)UPPERCASE<br/>
+3)New Line Remove<br/>
+4)Extra Spaces Remover<br/>
+5)Count Characters<br/>
 
 
 ## Home Page
@@ -38,7 +38,6 @@ Then go to cmd and run
 
 ```
 python manage.py runserver
-
 ```
 
 
