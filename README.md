@@ -33,7 +33,7 @@ Python3 <br/>
 django
 
 # How to run this project?
-Downlod/Pull the entire folder
+Downlod/Pull the entire folder, download all the dependencies, install django
 Then go to cmd and run
 
 ```
